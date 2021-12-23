@@ -4,7 +4,7 @@ import json
 import urllib.request
 
 def main():
-    t = "f6aa60a8d4d4e5e6c413350fdaca59ee4aa973ca61cb28b73beee93e9ba80be5"
+    t = ""
     url = "https://oapi.dingtalk.com/robot/send?access_token={}".format(t)
     header = {
         'Content-Type': 'application/json;charset=utf-8'
